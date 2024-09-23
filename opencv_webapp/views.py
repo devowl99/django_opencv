@@ -32,6 +32,7 @@ def simple_upload(request):
         return render(request, 'opencv_webapp/simple_upload.html', context)
 
 
+# Detect face with OpenCV
 def detect_face(request):
 
     if request.method == 'POST':
